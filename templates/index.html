@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>House Price Prediction</title>
+</head>
+<body>
+    <h1>House Price Prediction</h1>
+    <form action="/predict" method="post">
+        <label for="Province">Province:</label>
+        <input type="text" name="Province" required><br><br>
+
+        <label for="City">City:</label>
+        <input type="text" name="City" required><br><br>
+
+        <label for="Type">Type:</label>
+        <input type="text" name="Type" required><br><br>
+
+        <label for="SqFt">Square Footage:</label>
+        <input type="number" name="SqFt" required><br><br>
+
+        <label for="Bedrooms">Bedrooms:</label>
+        <input type="number" name="Bedrooms" required><br><br>
+
+        <label for="Bathrooms">Bathrooms:</label>
+        <input type="number" name="Bathrooms" required><br><br>
+
+        <label for="Garage">Garage:</label>
+        <input type="number" name="Garage" required><br><br>
+
+        <label for="Year_Built">Year Built:</label>
+        <input type="number" name="Year_Built" required><br><br>
+
+        <label for="Lot_Area">Lot Area:</label>
+        <input type="number" name="Lot_Area" required><br><br>
+
+        <button type="submit">Predict</button>
+    </form>
+</body>
+</html>
